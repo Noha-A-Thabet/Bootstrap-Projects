@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+/* start navbar */
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     font-family: sans-serif;
+}
+
+#nav-bar {
+     position: sticky;
+     top: 0;
+     z-index: 10;
+}
+
+.navbar {
+     background-image: linear-gradient(to right, #a517ba, #5f1782);
+     padding: 0 !important;
+}
+
+.navbar-brand {
+     font-size: 40px;
+     font-family: 'Just Another Hand', cursive;
+     color: white;
+     font-weight: 400
+}
+
+.navbar-nav li {
+     padding: 0 10px;
+}
+
+.navbar-nav li a {
+     color: #fff;
+     font-weight: 600px;
+     float: right;
+     text-align: left;
+}
+
+.fa-bars {
+     color: #fff;
+     font-size: 30px !important;
+     border: none !important;
+}
+
+.navbar-toggler {
+     outline: none !important;
+     border: none !important;
+}
+
+.navbar-toggler:focus {
+     outline: none !important;
+}
+
+/* End Navbar */
+/* ----------------Start Banner Section -------------- */
+#banner {
+     background-image: linear-gradient(to right, #a517ba, #5f1782);
+     color: #fff;
+     padding-top: 5%;
+}
+
+.promo-title {
+     font-size: 40px;
+     font-weight: 600;
+     margin-top: 100px;
+}
+
+.fa-play {
+     width: 45px;
+}
+
+#banner a {
+     color: white;
+     text-decoration: none;
+}
+
+.bottom-img {
+     width: 100%;
+}
+
+/* ----------------End Banner Section -------------- */
+
+/* ----------------Satrt Services Section -------------- */
+.services {
+     padding: 10px 0;
+}
+
+.service-img {
+     width: 55%;
+     margin-top: 20px;
+}
+
+.services h4 {
+     padding: 5px;
+     margin-top: 25px !important;
+     text-transform: uppercase;
+}
+
+.title::before {
+     content: "";
+     background: #7b1798;
+     height: 5px;
+     width: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     transform: translateY(63px);
+     -webkit-transform: translateY(63px);
+     -moz-transform: translateY(63px);
+     -ms-transform: translateY(63px);
+     -o-transform: translateY(63px);
+}
+
+.title::after {
+     content: "";
+     background: #7b1798;
+     height: 10px;
+     width: 50px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 40px;
+     display: block;
+     transform: translateY(8px);
+     -webkit-transform: translateY(8px);
+     -moz-transform: translateY(8px);
+     -ms-transform: translateY(8px);
+     -o-transform: translateY(8px);
+}
+
+#services button {
+     margin: auto;
+
+     box-shadow: none;
+     padding: 8px 25px;
+     border: none !important;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+     background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/* ----------------End Services Section -------------- */
+/* ----------------Start About Us Section -------------- */
+#about-us {
+     background-color: #f8f9fa;
+     padding-bottom: 50px;
+     padding-top: 50px;
+}
+
+.about-us {
+     background: #f8f9fa;
+     padding-bottom: 50px;
+     padding-top: 30px;
+}
+
+.about-title {
+     font-size: 40px;
+     font-weight: 600;
+     margin-top: 8%;
+}
+
+.about-us ul {
+     margin-left: 15px;
+}
+
+.about-us ul li {
+     margin: 10px 0;
+}
+
+.about-img {
+     padding-bottom: 50px;
+     padding-top: 80px;
+}
+
+/* ----------------End About Us Section -------------- */
+/* ----------------Start Testimonials -------------- */
+#testimonials {
+     margin: 100px 0;
+
+}
+
+.testimonials {
+     border-left: 4px solid #7b1798;
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+
+.testimonials-img {
+     width: 80px;
+     height: 80px;
+     margin: 0 10px;
+     object-fit: cover;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+}
+
+.user-detials {
+     display: inline-block;
+     font-size: 12px;
+}
+
+/* ----------------End Testimonials -------------- */
+/* ----------------Start social-media -------------- */
+#social-media {
+     background-color: #f8f9fa;
+     padding: 100px 0;
+}
+
+#social-media p {
+     font-size: 36px;
+     font-weight: 600px;
+     margin-bottom: 30px;
+}
+
+.social-icons a img {
+     width: 60px;
+     transition: 0.5s;
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+     margin: 10px;
+}
+
+.social-icons a:hover img {
+     transform: translateY(-10px);
+     -webkit-transform: translateY(-10px);
+     -moz-transform: translateY(-10px);
+     -ms-transform: translateY(-10px);
+     -o-transform: translateY(-10px);
+}
+
+/* ----------------End social-media -------------- */
+/* ----------------Start Footer -------------- */
+#footer {
+     background-image: linear-gradient(to right, #6b1578, #a517ba);
+     color: #fff;
+}
+
+.footer-img {
+     width: 100%;
+}
+
+.footer-box {
+     padding: 20px;
+}
+
+.footer-box h4 {
+     font-size: 40px;
+     font-family: 'Just Another Hand',
+          cursive;
+     color: white;
+     font-weight: 400
+}
+
+.footer-box .bi {
+     margin-right: 8px;
+     font-size: 25px;
+     height: 50px;
+     width: 40px;
+     text-align: center;
+     border-radius: 2px;
+     -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+     -ms-border-radius: 2px;
+     -o-border-radius: 2px;
+     padding-top: 7px;
+}
+
+.footer-box .form-control {
+     box-shadow: none !important;
+     border: none;
+     border-radius: 0;
+     -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+     -ms-border-radius: 0;
+     -o-border-radius: 0;
+     margin-top: 25px;
+     max-width: 250px;
+}
+
+.footer-box .btn-primary {
+     box-shadow: none !important;
+     border: none;
+     border-radius: 0;
+     -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+     -ms-border-radius: 0;
+     -o-border-radius: 0;
+     margin-top: 30px;
+     background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+hr {
+     background-color: #fff;
+     ;
+}
+
+.copyright {
+     margin-bottom: 0;
+     padding-bottom: 20px;
+     text-align: center;
+}
+
+/* ----------------End Footer -------------- */
